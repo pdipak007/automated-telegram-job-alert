@@ -33,6 +33,7 @@ This Python-based Telegram bot automatically sends Cloud & DevOps job links to T
             "chat":{"id":123456789}
             
 ## Project Structure:
+```
 automated-telegram-job-alert/
 │
 ├── telegram_sender.py
@@ -40,6 +41,7 @@ automated-telegram-job-alert/
 ├── config_example.py
 ├── requirements.txt
 └── README.md
+```
 
 ## Step 3: Configuration (IMPORTANT):
 - Create a file `config.py`  
@@ -62,10 +64,10 @@ ROLES = [
 SITES = ["linkedin", "naukri", "unstop", "wellfound"] 
 ```
 ## Step 4: Install Dependencies:
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Step 5: Test Manually:
-python telegram_sender.py
+```python telegram_sender.py```
 
 ## Step 6: Windows Task Scheduler Automation:
 - This project can be automated using Windows Task Scheduler to run daily at 9:00 PM.
@@ -84,19 +86,19 @@ Steps:
          Use the full path to your Python executable.
 
 ## Example:
-C:\Path\To\Your\Python\python.exe
+```C:\Path\To\Your\Python\python.exe```
 
 -You can find this path by running:
-  where python
+ ``` where python```
 
 ## Add arguments:
-telegram_sender.py
+```telegram_sender.py```
 
 ## Start in:
-<Path to project folder>
+```<Path to project folder>```
 
 ## Example:
-C:\Users\<your-username>\Desktop\telegram-job-alert
+```C:\Users\<your-username>\Desktop\telegram-job-alert```
 
 ## Recommended Settings:
 - Enable the following options:
@@ -114,3 +116,4 @@ Author
 
 Dipak Purane
 Cloud | DevOps | Automation
+
