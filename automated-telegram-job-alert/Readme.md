@@ -118,9 +118,5 @@ Steps:
 Author
 
 Dipak Purane
+
 Cloud | DevOps | Automation
-
-
-
-
-
