@@ -73,14 +73,15 @@ SITES = ["linkedin", "naukri", "unstop", "wellfound"]
 - This project can be automated using Windows Task Scheduler to run daily at 9:00 PM.
 
 Steps:
-```1.Open Task Scheduler
+
+1.Open Task Scheduler
 2.Click Create Task
 3.Go to Triggers
      - Set trigger to Daily
      - Time: 9:00 PM
 4.Go to Actions
      - Action: Start a program
-```
+
 
 ## Action Configuration (IMPORTANT):
 - Program/script:
@@ -118,5 +119,6 @@ Author
 Dipak Purane
 
 Cloud | DevOps | Automation
+
 
 
